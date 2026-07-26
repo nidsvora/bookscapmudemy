@@ -8,3 +8,8 @@ entity Books {
    publishedDate : DateTime;
    digitalCopy: Boolean;
 }
+
+entity Library {
+   key LibId: UUID;
+   totalBooks: Integer;
+}

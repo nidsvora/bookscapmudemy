@@ -1,0 +1,34 @@
+GET http://localhost:4004/odata/v4/library-srv/
+
+###
+GET http://localhost:4004/odata/v4/library-srv/$metadata
+
+###
+GET http://localhost:4004/odata/v4/library-srv/BooksSet
+
+###
+POST http://localhost:4004/odata/v4/library-srv/BooksSet
+Content-Type: application/json
+
+{
+   "title" : "The Great Gatsby3", 
+   "author" : "F. Scott Fitzgerald",
+   "price" : 12.99,
+   "publishedDate" : "1925-04-10T00:00:00Z",
+   "digitalCopy" : true
+}
+
+###
+PUT  http://localhost:4004/odata/v4/library-srv/BooksSet('a1c9786f-4ec6-429d-820b-ea88e51d2196')
+Content-Type: application/json
+
+{
+   "title": "The Great Gatsby5",
+   "author": "F. Scott Fitzgerald",
+   "price": 12.99,
+   "publishedDate": "1925-04-10T00:00:00Z",
+   "digitalCopy": true
+}
+
+### delete a book by ID
+DELETE http://localhost:4004/odata/v4/library-srv/BooksSet('dc91aa52-ca80-4230-af83-3d0b0f105fad')

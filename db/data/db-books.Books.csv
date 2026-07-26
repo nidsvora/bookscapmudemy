@@ -1,0 +1,11 @@
+ID,title,author,price,publishedDate,digitalCopy
+121e9525-907d-4be3-82c4-84578220538a,The Pragmatic Programmer,Andrew Hunt,49.99,2019-09-13T00:00:00Z,true
+032602ae-94fb-4af7-94d4-f043c19377ec,Clean Code,Robert C. Martin,42.50,2008-08-01T00:00:00Z,true
+73eb4ab8-8466-4627-8218-f5f47dbd8a6e,Design Patterns,Erich Gamma,55.75,1994-10-21T00:00:00Z,false
+b82eba58-a0a1-4b2e-ae25-9546e6ecc52b,Refactoring,Martin Fowler,47.25,2018-11-19T00:00:00Z,true
+bfc8b76c-1c36-49bb-8c8e-6eb73062bb40,Domain-Driven Design,Eric Evans,60.00,2003-08-30T00:00:00Z,false
+42613faf-c1ea-4e23-a8de-38cf2b6e5811,Effective Java,Joshua Bloch,45.99,2018-01-06T00:00:00Z,true
+dc91aa52-ca80-4230-af83-3d0b0f105fad,Head First Design Patterns,Eric Freeman,39.95,2020-12-25T00:00:00Z,true
+681472e1-faaa-4a6e-b77d-b02ef9035cd6,Spring in Action,Craig Walls,44.99,2022-03-15T00:00:00Z,true
+85efc2a0-30d1-461c-8b45-f19e59cd54a9,Java Concurrency in Practice,Brian Goetz,52.40,2006-05-19T00:00:00Z,false
+4d7a287e-4b64-48a6-83cd-6615a375b161,Microservices Patterns,Chris Richardson,58.75,2018-10-27T00:00:00Z,true
